@@ -62,10 +62,10 @@ img[alt="logo-canvia"] {
     flex-flow: column nowrap;
     align-items: flex-end;
     overflow-x: hidden;
-    width: 100%;
-    max-width: 35em;
+    /*width: 100%;
+    max-width: 35em;*/
     max-height: 75vh;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .chatlist .userInput,.chatlist .bot__output {
