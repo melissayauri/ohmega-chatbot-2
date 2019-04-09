@@ -2,14 +2,12 @@
     width: 96%;
     text-align: center;
     overflow: hidden;
+    margin: auto;
   }
   
   .slides {
     display: flex;
-    overflow-x: auto;
-    
     border-radius: 5px;
-    
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     scroll-snap-points-x: repeat(300px);
@@ -90,9 +88,9 @@
     background: #000;
   }
   
-  /* Don't need button navigation */
+  /* Don't need button navigation 
   @supports (scroll-snap-type) {
     .slider > a {
       display: none;
     }
-  }
+  }*/

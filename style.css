@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.out{
+    outline: 1px solid #ff7400;
+}
+.out-blue{
+    outline: 1px solid blue;
+}
+body{
+    color: rgba(0,0,0,0.87);
+}
 
 /*******caja de chatbot*****/
 .block-background {
@@ -62,8 +71,8 @@ img[alt="logo-canvia"] {
     flex-flow: column nowrap;
     align-items: flex-end;
     overflow-x: hidden;
-    /*width: 100%;
-    max-width: 35em;*/
+   width: 100%;
+     /*max-width: 35em;*/
     max-height: 75vh;
     /*margin: 0 auto;*/
 }
@@ -151,6 +160,8 @@ img[alt="logo-canvia"] {
 .btn.chip{
     text-transform: lowercase;
     background-color: #f1f3f4;
+    color: rgba(0,0,0,0.87);
+    margin-right: 1rem;
 }
 .btn.chip:hover{
     background-color: #ff7400;
@@ -175,6 +186,9 @@ img[alt="logo-canvia"] {
     .block-background {
         /*background-color: #363636;*/
         width: 50%;
+    }
+    .slides {
+        overflow-x: auto;
     }
 
 }
