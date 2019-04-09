@@ -20,9 +20,9 @@
     background-color: white;
     min-height: 100vh;
 }
-
+/****header chatbot****/
 .chatbot-header {
-    background-image: url(assets/fondo-orange.jpg);
+    background-image: url(assets/fondo-orange.PNG);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 32vh;
@@ -42,7 +42,7 @@ img[alt="logo-canvia"] {
     margin-top: 2rem;
 
 }
-
+/****body chatbot***/
 .chatbot__overview {
     /*background-color: #363636;*/
     display: flex;
@@ -79,7 +79,7 @@ img[alt="logo-canvia"] {
 }
 
 
-.chatlist .bot__output {
+.chatlist .bot__output, .chatlist .quick-replies {
     align-self: flex-start;
     /*box-shadow: -1px 1px 2px #666;
     border-top: 4px solid #27ae60;*/
@@ -91,18 +91,10 @@ img[alt="logo-canvia"] {
     animation-iteration-count: 1;
     animation-play-state: paused;
     animation-fill-mode: forwards;
+    
+   
 }
 .chatlist .bot__output:after {
-   /* border-width: 0px 10px 10px 0;
-    border-color: transparent #fff transparent transparent;
-    top: 0;
-    left: -10px;
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    background-color: #f1f3f4;*/
     content: "";
     width: 0px;
     height: 0px;
@@ -120,7 +112,7 @@ img[alt="logo-canvia"] {
 }*/
 
 .chatlist .bot__output:nth-child(1) {
-    animation-delay: 600ms;
+    animation-delay: 900ms;
     animation-play-state: running;
 }
 
@@ -129,7 +121,7 @@ img[alt="logo-canvia"] {
     animation-play-state: running;
 }
 
-.chatlist .bot__output:nth-child(3) {
+.chatlist .quick-replies {
     animation-delay: 1800ms;
     animation-play-state: running;
 }
@@ -149,93 +141,19 @@ img[alt="logo-canvia"] {
     }
 
     100% {
-        transform: translateY(0);
+        transform: translateY(0 );
         opacity: 1;
+       
     }
+   
 }
-
-/****input*/
-.chatbox-area {
-    margin: 0 auto;
-    position: relative;
-    bottom: 0;
-    height: auto;
-    width: 100%;
+/*****quick replies***/
+.btn.chip{
+    text-transform: lowercase;
+    background-color: #f1f3f4;
 }
-
-textarea[name="chatbox"] {
-    resize: none;
-    border: 2px solid #27ae60;
-    border-right: 0;
-    width: 70%;
-    background-color: transparent;
-    color: #fff;
-    height: 3em;
-    margin: 0;
-    padding: 0.75em;
-    border-radius: 8px 0px 0px 8px;
-    font-family: inherit;
-    font-size: 1em;
-}
-
-textarea[name="chatbox"]:focus {
-    outline: none;
-    border: 2px solid #4bd786;
-}
-
-::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
-    color: #fff;
-}
-
-:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: #fff;
-    opacity: 1;
-}
-
-::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: #fff;
-    opacity: 1;
-}
-
-input[type="submit"] {
-    -webkit-appearance: none;
-    appearance: none;
-    border: 0;
-    width: 25%;
-    margin: 0;
-    background-color: #27ae60;
-    color: #fff;
-    border: 2px solid #27ae60;
-    border-left: 0;
-    border-radius: 0 8px 8px 0;
-    font-family: inherit;
-    font-size: 1em;
-    transition: 200ms all ease-in;
-}
-
-input[type="submit"]:hover {
-    background-color: #4bd786;
-    border-color: #4bd786;
-    color: #fff;
-}
-
-.input__nested-list {
-    list-style: disc;
-    list-style-position: inside;
-    padding: 0.5em;
-}
-
-.input__nested-list:first-child {
-    padding-top: 1em;
-}
-
-.input__nested-link {
-    color: #2ecc71;
-    text-decoration: none;
-    border-bottom: 1px solid #2ecc71;
+.btn.chip:hover{
+    background-color: #ff7400;
 }
 
 ::-webkit-scrollbar {

@@ -20,20 +20,15 @@ var sendForm = document.querySelector('#chatform'),
 */
      chatList.innerHTML=`<li class="bot__output bot__output--standard">Hola, Melissa</li>
      <li class="bot__output bot__output--standard">¿En qué puedo ayudarte?</li>
-     <div class="bot__output bot__output--standard ">
+     <div class="quick-replies">
      <div class="sliders">
-  
-     <!--<a href="#slide-1">1</a>
-      <a href="#slide-2">2</a>
-      <a href="#slide-3">3</a>
-      <a href="#slide-4">4</a>
-      <a href="#slide-5">5</a>--> 
+
     
       <div class="slides">
         <div id="slide-1">
-          <button type="button" class="btn btn-primary btn-radius">Tengo un problema</button>
-          <button type="button" class="btn btn-primary btn-radius">Primary</button>
-          <button type="button" class="btn btn-primary btn-radius">Primary</button>
+          <button type="button" class="btn chip">Tengo un problema</button>
+          <button type="button" class="btn chip">Necesito algo</button>
+          <button type="button" class="btn chip">Contraseñas</button>
         </div>
    
 
