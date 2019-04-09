@@ -7,6 +7,7 @@
   
   .slides {
     display: flex;
+    overflow-x: auto;
     border-radius: 5px;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -18,7 +19,7 @@
     height: 10px;
   }
   .slides::-webkit-scrollbar-thumb {
-    background: #f1f3f4;
+    background: white;
     border-radius: 10px;
   }
   .slides::-webkit-scrollbar-track {
