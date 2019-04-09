@@ -1,5 +1,5 @@
 .sliders {
-    width: 300px;
+    width: 100%;
     text-align: center;
     overflow: hidden;
   }
@@ -29,7 +29,7 @@
   .slides > div {
     flex-shrink: 0;
     /*width: 300px;*/
-    width: 28rem;
+    /*width: 28rem;*/
     height: 5rem;
     border-radius: 10px;
     /*transform-origin: center center;
