@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .out{
     outline: 1px solid #ff7400;
 }
@@ -157,7 +160,7 @@ img[alt="logo-canvia"] {
    
 }
 /*****quick replies***/
-.btn.chip{
+/*.btn.chip{
     text-transform: lowercase;
     background-color: #f1f3f4;
     color: rgba(0,0,0,0.87);
@@ -166,7 +169,7 @@ img[alt="logo-canvia"] {
 .btn.chip:hover{
     background-color: #ff7400;
 }
-
+*/
 ::-webkit-scrollbar {
     width: 0.65em;
     /* for vertical scrollbars */
