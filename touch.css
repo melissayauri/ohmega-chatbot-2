@@ -9,7 +9,7 @@
     display: flex;
     overflow-x: auto;
     border-radius: 5px;
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
     -webkit-overflow-scrolling: touch;
     scroll-snap-points-x: repeat(300px);
     scroll-snap-type: mandatory;
@@ -39,9 +39,9 @@
     justify-content: center;
     align-items: center;
   }
-  .slides > div:target {
+  /*.slides > div:target {
     transform: scale(0.8);
-  }
+  }*/
   /*
   .author-info {
     background: rgba(0, 0, 0, 0.75);
@@ -90,8 +90,9 @@
   }
   
   /* Don't need button navigation */
+  /*
   @supports (scroll-snap-type) {
     .slider > a {
       display: none;
     }
-  }
+  }*/

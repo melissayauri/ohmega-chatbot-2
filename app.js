@@ -26,9 +26,9 @@ var sendForm = document.querySelector('#chatform'),
     
       <div class="slides">
         <div id="slide-1">
-          <button type="button" class="btn chip">Tengo un problema</button>
-          <button type="button" class="btn chip">Necesito algo</button>
-          <button type="button" class="btn chip">Contraseñas</button>
+          <button type="button" class="btn ">Tengo un problema</button>
+          <button type="button" class="btn ">Necesito algo</button>
+          <button type="button" class="btn ">Contraseñas</button>
         </div>
    
 
